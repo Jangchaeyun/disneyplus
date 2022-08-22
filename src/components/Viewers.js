@@ -19,6 +19,9 @@ function Viewers() {
             <Wrap>
                 <img src="/images/viewers-national.png" />
             </Wrap>
+            <Wrap>
+                <img src="/images/viewers-star.png" />
+            </Wrap>
         </Container>
     )
 }
@@ -30,7 +33,7 @@ const Container = styled.div`
     display: grid;
     padding: 30px 0px 26px;
     grid-gap: 25px;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(6, minmax(0, 1fr));
 `;
 
 const Wrap = styled.div`
